@@ -1,0 +1,162 @@
+
+#Poppet configuration settings
+[poppets]
+
+	#Voodoo Poppet
+	[poppets.voodoo_poppet]
+		#Durability of the poppet
+		#Range: > 0
+		durability = 20
+		#How many ticks the poppet has to be pulled before an action can be executed
+		#Range: 0 ~ 72000
+		pull_duration = 20
+
+		#Needle options
+		[poppets.voodoo_poppet.needle]
+			#Allow damaging bound player with needles
+			enable_needle = true
+			#The durability that should be removed each time the poppet does damage with a needle
+			#Range: > 0
+			needle_durability_cost = 1
+			#The amount of hit points that should be removed from the target player. Given in half hearts
+			#Range: > 0
+			needle_damage = 2
+
+		#Pushing options
+		[poppets.voodoo_poppet.push]
+			#Allow pushing bound player around
+			enable_push = true
+			#The durability that should be removed each time the poppet pushes the bound player around
+			#Range: > 0
+			push_durability_cost = 2
+
+		#Fire options
+		[poppets.voodoo_poppet.fire]
+			#Allow damaging bound player by throwing poppet into fire
+			enable_fire = true
+			#The durability that should be removed each time the poppet does damage by fire
+			#Range: > 0
+			fire_durability_cost = 2
+
+		#Drowning options
+		[poppets.voodoo_poppet.drowning]
+			#Allow drowning bound player by throwing poppet into water
+			enable_drowning = true
+			#The durability that should be removed each time the poppet does damage by drowning
+			#Range: > 0
+			drown_durability_cost = 2
+
+	#Vampiric Poppet
+	[poppets.vampiric_poppet]
+		#Set to false to disable this poppet
+		enabled = true
+		#Durability of the poppet
+		#Range: > 0
+		durability = 20
+		#The hit point limit for draining health
+		#If the target players health is below this number no health will be drained
+		#Range: > 0
+		health_limit = 6
+		#The interval in which health should be drained in ticks.
+		#Range: > 1
+		drainage_interval = 20
+		#The hit points that should be stolen per drain.
+		#Range: > 1
+		health_per_drain = 3
+
+	#Reflector Poppet
+	[poppets.reflector_poppet]
+		#Set to false to disable this poppet
+		enabled = true
+		#Durability of the poppet
+		#Range: > 0
+		durability = 10
+
+	#Voodoo Protection Poppet
+	[poppets.voodoo_protection_poppet]
+		#Set to false to disable this poppet
+		enabled = true
+		#Durability of the poppet
+		#Range: > 0
+		durability = 1
+
+	#Death Protection Poppet
+	[poppets.death_protection_poppet]
+		#Set to false to disable this poppet
+		enabled = true
+		#Durability of the poppet
+		#Range: > 0
+		durability = 2
+
+	#Fire Protection Poppet
+	[poppets.fire_protection_poppet]
+		#Set to false to disable this poppet
+		enabled = true
+		#Durability of the poppet
+		#Range: > 0
+		durability = 10
+
+	#Water Protection Poppet
+	[poppets.water_protection_poppet]
+		#Set to false to disable this poppet
+		enabled = true
+		#Durability of the poppet
+		#Range: > 0
+		durability = 5
+
+	#Fall Protection Poppet
+	[poppets.fall_protection_poppet]
+		#Set to false to disable this poppet
+		enabled = true
+		#Durability of the poppet
+		#Range: > 0
+		durability = 30
+
+	#Explosion Protection Poppet
+	[poppets.explosion_protection_poppet]
+		#Set to false to disable this poppet
+		enabled = true
+		#Durability of the poppet
+		#Range: > 0
+		durability = 4
+
+	#Projectile Protection Poppet
+	[poppets.projectile_protection_poppet]
+		#Set to false to disable this poppet
+		enabled = true
+		#Durability of the poppet
+		#Range: > 0
+		durability = 10
+
+	#Wither Protection Poppet
+	[poppets.wither_protection_poppet]
+		#Set to false to disable this poppet
+		enabled = true
+		#Durability of the poppet
+		#Range: > 0
+		durability = 10
+
+	#Hunger Protection Poppet
+	[poppets.hunger_protection_poppet]
+		#Set to false to disable this poppet
+		enabled = true
+		#Durability of the poppet
+		#Range: > 0
+		durability = 5
+
+	#Potion Protection Poppet
+	[poppets.potion_protection_poppet]
+		#Set to false to disable this poppet
+		enabled = true
+		#Durability of the poppet
+		#Range: > 0
+		durability = 6
+
+	#Void Protection Poppet
+	[poppets.void_protection_poppet]
+		#Set to false to disable this poppet
+		enabled = true
+		#Durability of the poppet
+		#Range: > 0
+		durability = 0
+

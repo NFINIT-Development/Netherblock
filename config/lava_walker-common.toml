@@ -1,0 +1,10 @@
+
+["Config for LavaWalker Enchantment Mod"]
+	#This defines the max enchantment level
+	max_enchantment_level = 2
+	#You can choose speed from VERY_FAST FAST NORMAL SLOW VERY_SLOW
+	#Allowed Values: VERY_SLOW, SLOW, NORMAL, FAST, VERY_FAST
+	meltSpeed = "NORMAL"
+	#This field determines whether obsidians that Lavawalker generates are breakable.
+	is_breakable = false
+

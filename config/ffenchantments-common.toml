@@ -1,0 +1,198 @@
+
+#Enchantment Configuration
+[enchantments]
+
+	[enchantments.anchoring_curse]
+		#Whether or not Curse of Anchoring can be found on enchanted books in naturally generated chests.
+		canAnchoringCurseGenerateInLoot = true
+		#Whether or not Curse of Anchoring can be traded by villagers.
+		canAnchoringCurseAppearInTrades = true
+
+	[enchantments.aquatic_rejuvenation]
+		#Whether or not Aquatic Rejuvenation can be applied to possible items.
+		canAquaticRejuvenationBeAppliedToItems = false
+		#Whether or not Aquatic Rejuvenation can be applied to books.
+		canAquaticRejuvenationBeAppliedToBooks = false
+		#Whether or not Aquatic Rejuvenation can be found on enchanted books in naturally generated chests.
+		canAquaticRejuvenationGenerateInLoot = true
+		#Whether or not Aquatic Rejuvenation can be traded by villagers.
+		canAquaticRejuvenationAppearInTrades = true
+
+	[enchantments.bloodlust]
+		#Whether or not Bloodlust can be applied to possible items.
+		canBloodlustBeAppliedToItems = true
+		#Whether or not Bloodlust can be applied to books.
+		canBloodlustBeAppliedToBooks = true
+		#Whether or not Bloodlust can be found on enchanted books in naturally generated chests.
+		canBloodlustGenerateInLoot = true
+		#Whether or not Bloodlust can be traded by villagers.
+		canBloodlustAppearInTrades = true
+
+	[enchantments.buoyancy]
+		#Whether or not Buoyancy can be applied to books.
+		canBuoyancyBeAppliedToBooks = true
+		#Whether or not Buoyancy can be found on enchanted books in naturally generated chests.
+		canBuoyancyGenerateInLoot = true
+		#Whether or not Buoyancy can be traded by villagers.
+		canBuoyancyAppearInTrades = true
+
+	[enchantments.butchering]
+		#Whether or not Butchering can be applied to possible items.
+		canButcheringBeAppliedToItems = true
+		#Whether or not Butchering can be applied to books.
+		canButcheringBeAppliedToBooks = true
+		#Whether or not Butchering can be found on enchanted books in naturally generated chests.
+		canButcheringGenerateInLoot = true
+		#Whether or not Butchering can be traded by villagers.
+		canButcheringAppearInTrades = true
+
+	[enchantments.inferno]
+		#Whether or not Inferno can be applied to possible items.
+		canInfernoBeAppliedToItems = true
+		#Whether or not Inferno can be applied to books.
+		canInfernoBeAppliedToBooks = true
+		#Whether or not Inferno can be found on enchanted books in naturally generated chests.
+		canInfernoGenerateInLoot = true
+		#Whether or not Inferno can be traded by villagers.
+		canInfernoAppearInTrades = true
+
+	[enchantments.leaping]
+		#Whether or not Leaping can be applied to books.
+		canLeapingBeAppliedToBooks = true
+		#Whether or not Leaping can be found on enchanted books in naturally generated chests.
+		canLeapingGenerateInLoot = true
+		#Whether or not Leaping can be traded by villagers.
+		canLeapingAppearInTrades = true
+
+	[enchantments.maelstrom]
+		#Whether or not Maelstrom can be applied to possible items.
+		canMaelstromBeAppliedToItems = true
+		#Whether or not Maelstrom can be applied to books.
+		canMaelstromBeAppliedToBooks = true
+		#Whether or not Maelstrom can be found on enchanted books in naturally generated chests.
+		canMaelstromGenerateInLoot = true
+		#Whether or not Maelstrom can be traded by villagers.
+		canMaelstromAppearInTrades = true
+
+	[enchantments.obsidian_skull]
+		#Whether or not Obsidian Skull can be applied to possible items.
+		canObsidianSkullBeAppliedToItems = false
+		#Whether or not Obsidia nSkull can be applied to books.
+		canObsidianSkullBeAppliedToBooks = false
+		#Whether or not Obsidian Skull can be found on enchanted books in naturally generated chests.
+		canObsidianSkullGenerateInLoot = true
+		#Whether or not Obsidian Skull can be traded by villagers.
+		canObsidianSkullAppearInTrades = true
+
+	[enchantments.outrush]
+		#Whether or not Outrush can be applied to possible items.
+		canOutrushBeAppliedToItems = true
+		#Whether or not Outrush can be applied to books.
+		canOutrushBeAppliedToBooks = true
+		#Whether or not Outrush can be found on enchanted books in naturally generated chests.
+		canOutrushGenerateInLoot = true
+		#Whether or not Outrush can be traded by villagers.
+		canOutrushAppearInTrades = true
+
+	[enchantments.pillaging]
+		#Whether or not Pillaging can be applied to possible items.
+		canPillagingBeAppliedToItems = true
+		#Whether or not Pillaging can be applied to books.
+		canPillagingBeAppliedToBooks = true
+		#Whether or not Pillaging can be found on enchanted books in naturally generated chests.
+		canPillagingGenerateInLoot = true
+		#Whether or not Pillaging can be traded by villagers.
+		canPillagingAppearInTrades = true
+
+	[enchantments.pointed]
+		canPointedBeAppliedToItems = true
+		canPointedBeAppliedToBooks = true
+		canPointedGenerateInLoot = true
+		canPointedAppearInTrades = true
+
+	[enchantments.poison_aspect]
+		#Whether or not Poison Aspect can be applied to possible items.
+		canPoisonAspectBeAppliedToItems = true
+		#Whether or not Poison Aspect can be applied to books.
+		canPoisonAspectBeAppliedToBooks = true
+		#Whether or not Poison Aspect can be found on enchanted books in naturally generated chests.
+		canPoisonAspectGenerateInLoot = true
+		#Whether or not Poison Aspect can be traded by villagers.
+		canPoisonAspectAppearInTrades = true
+
+	[enchantments.quickness]
+		#Whether or not Quickness can be applied to books.
+		canQuicknessBeAppliedToBooks = true
+		#Whether or not Quickness can be found on enchanted books in naturally generated chests.
+		canQuicknessGenerateInLoot = true
+		#Whether or not Quickness can be traded by villagers.
+		canQuicknessAppearInTrades = true
+
+	[enchantments.searing]
+		#Whether or not Searing can be applied to possible items.
+		canSearingBeAppliedToItems = true
+		#Whether or not Searing can be applied to books.
+		canSearingBeAppliedToBooks = true
+		#Whether or not Searing can be found on enchanted books in naturally generated chests.
+		canSearingGenerateInLoot = true
+		#Whether or not Searing can be traded by villagers.
+		canSearingAppearInTrades = true
+
+	[enchantments.steadfast]
+		#Whether or not Steadfast can be applied to possible items.
+		canSteadfastBeAppliedToItems = true
+		#Whether or not Steadfast can be applied to books.
+		canSteadfastBeAppliedToBooks = true
+		#Whether or not Steadfast can be found on enchanted books in naturally generated chests.
+		canSteadfastGenerateInLoot = true
+		#Whether or not Steadfast can be traded by villagers.
+		canSteadfastAppearInTrades = true
+
+	[enchantments.torrent]
+		#Whether or not Torrent can be applied to possible items.
+		canTorrentBeAppliedToItems = true
+		#Whether or not Torrent can be applied to books.
+		canTorrentBeAppliedToBooks = true
+		#Whether or not Torrent can be found on enchanted books in naturally generated chests.
+		canTorrentGenerateInLoot = true
+		#Whether or not Torrent can be traded by villagers.
+		canTorrentAppearInTrades = true
+
+	[enchantments.vampiric]
+		#Whether or not Vampiric can be applied to possible items.
+		canVampiricBeAppliedToItems = false
+		#Whether or not Vampiric can be applied to books.
+		canVampiricBeAppliedToBooks = false
+		#Whether or not Vampiric can be found on enchanted books in naturally generated chests.
+		canVampiricGenerateInLoot = true
+		#Whether or not Vampiric can be traded by villagers.
+		canVampiricAppearInTrades = true
+
+	[enchantments.weighted]
+		#Whether or not Weighted can be applied to possible items.
+		canWeightedBeAppliedToItems = true
+		#Whether or not Weighted can be applied to books.
+		canWeightedBeAppliedToBooks = true
+		#Whether or not Weighted can be found on enchanted books in naturally generated chests.
+		canWeightedGenerateInLoot = true
+		#Whether or not Weighted can be traded by villagers.
+		canWeightedAppearInTrades = true
+
+	[enchantments.wither_aspect]
+		#Whether or not Wither Aspect can be applied to possible items.
+		canWitherAspectBeAppliedToItems = false
+		#Whether or not Wither Aspect can be applied to books.
+		canWitherAspectBeAppliedToBooks = false
+		#Whether or not Wither Aspect can be found on enchanted books in naturally generated chests.
+		canWitherAspectGenerateInLoot = true
+		#Whether or not Wither Aspect can be traded by villagers.
+		canWitherAspectAppearInTrades = true
+
+#Loot Modifier Configuration
+[loot_modifiers]
+	#Allow/disallow saddles as part of loot to be randomly enchanted.
+	enableSaddlesRandomlyEnchanted = true
+	#The chance for a saddle to be enchanted with a random saddle enchantment. 1.0 means it will be guaranteed to be enchanted.
+	#Range: 0.0 ~ 1.0
+	enchantSaddleChance = 0.4000000059604645
+

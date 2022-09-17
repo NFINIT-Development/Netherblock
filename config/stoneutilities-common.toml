@@ -1,0 +1,7 @@
+#max random drops (Default: 3)
+#Range: > 1
+maxShardDrops = 3
+#Max break speed on stone (Default: 5D)
+#Range: 0.0 ~ 1.7976931348623157E308
+breakSpeed = 5.0
+

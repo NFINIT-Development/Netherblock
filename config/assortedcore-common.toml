@@ -1,0 +1,167 @@
+
+[Machines]
+	#Set to true if you want the grinding mill to play the break sound when a block is broken.
+	grindingMillBreakSound = true
+
+[Materials]
+
+	[Materials.Aluminum]
+
+		[Materials.Aluminum."World Gen"]
+			#Set to the max vein size you a Aluminum cluster could generate with.
+			#Range: 0 ~ 64
+			veinSizeAluminum = 12
+			#Set to the number of blocks above the world bottom that Aluminum should try and generate.
+			#Range: -64 ~ 320
+			botOffsetAluminum = 16
+			#Set to the max level that Aluminum could generate in the world.
+			#Range: -64 ~ 320
+			maxSpawnLevelAluminum = 125
+			#Set to the number of attempts that Aluminum will try to generate in a chunk.
+			#Range: 0 ~ 64
+			spawnRateAluminum = 20
+
+	[Materials.Nickel]
+
+		[Materials.Nickel."World Gen"]
+			#Set to the max vein size you a Nickel cluster could generate with.
+			#Range: 0 ~ 64
+			veinSizeNickel = 9
+			#Set to the number of blocks above the world bottom that Nickel should try and generate.
+			#Range: -64 ~ 320
+			botOffsetNickel = -40
+			#Set to the max level that Nickel could generate in the world.
+			#Range: -64 ~ 320
+			maxSpawnLevelNickel = 40
+			#Set to the number of attempts that Nickel will try to generate in a chunk.
+			#Range: 0 ~ 64
+			spawnRateNickel = 14
+
+	[Materials.Tin]
+
+		[Materials.Tin."World Gen"]
+			#Set to the max vein size you a Tin cluster could generate with.
+			#Range: 0 ~ 64
+			veinSizeTin = 9
+			#Set to the number of blocks above the world bottom that Tin should try and generate.
+			#Range: -64 ~ 320
+			botOffsetTin = 20
+			#Set to the max level that Tin could generate in the world.
+			#Range: -64 ~ 320
+			maxSpawnLevelTin = 256
+			#Set to the number of attempts that Tin will try to generate in a chunk.
+			#Range: 0 ~ 64
+			spawnRateTin = 16
+
+	[Materials.Lead]
+
+		[Materials.Lead."World Gen"]
+			#Set to the max vein size you a Lead cluster could generate with.
+			#Range: 0 ~ 64
+			veinSizeLead = 8
+			#Set to the number of blocks above the world bottom that Lead should try and generate.
+			#Range: -64 ~ 320
+			botOffsetLead = -32
+			#Set to the max level that Lead could generate in the world.
+			#Range: -64 ~ 320
+			maxSpawnLevelLead = 32
+			#Set to the number of attempts that Lead will try to generate in a chunk.
+			#Range: 0 ~ 64
+			spawnRateLead = 14
+
+	[Materials.Silver]
+
+		[Materials.Silver."World Gen"]
+			#Set to the max vein size you a Silver cluster could generate with.
+			#Range: 0 ~ 64
+			veinSizeSilver = 8
+			#Set to the number of blocks above the world bottom that Silver should try and generate.
+			#Range: -64 ~ 320
+			botOffsetSilver = -64
+			#Set to the max level that Silver could generate in the world.
+			#Range: -64 ~ 320
+			maxSpawnLevelSilver = 12
+			#Set to the number of attempts that Silver will try to generate in a chunk.
+			#Range: 0 ~ 64
+			spawnRateSilver = 8
+
+	[Materials.Platinum]
+
+		[Materials.Platinum."World Gen"]
+			#Set to the max vein size you a Platinum cluster could generate with.
+			#Range: 0 ~ 64
+			veinSizePlatinum = 7
+			#Set to the number of blocks above the world bottom that Platinum should try and generate.
+			#Range: -64 ~ 320
+			botOffsetPlatinum = -64
+			#Set to the max level that Platinum could generate in the world.
+			#Range: -64 ~ 320
+			maxSpawnLevelPlatinum = -16
+			#Set to the number of attempts that Platinum will try to generate in a chunk.
+			#Range: 0 ~ 64
+			spawnRatePlatinum = 4
+
+	[Materials.Ruby]
+
+		[Materials.Ruby."World Gen"]
+			#Set to the max vein size you a Ruby cluster could generate with.
+			#Range: 0 ~ 64
+			veinSizeRuby = 8
+			#Set to the number of blocks above the world bottom that Ruby should try and generate.
+			#Range: -64 ~ 320
+			botOffsetRuby = -64
+			#Set to the max level that Ruby could generate in the world.
+			#Range: -64 ~ 320
+			maxSpawnLevelRuby = 0
+			#Set to the number of attempts that Ruby will try to generate in a chunk.
+			#Range: 0 ~ 64
+			spawnRateRuby = 4
+
+	[Materials.Sapphire]
+
+		[Materials.Sapphire."World Gen"]
+			#Set to the max vein size you a Sapphire cluster could generate with.
+			#Range: 0 ~ 64
+			veinSizeSapphire = 8
+			#Set to the number of blocks above the world bottom that Sapphire should try and generate.
+			#Range: -64 ~ 320
+			botOffsetSapphire = -12
+			#Set to the max level that Sapphire could generate in the world.
+			#Range: -64 ~ 320
+			maxSpawnLevelSapphire = 50
+			#Set to the number of attempts that Sapphire will try to generate in a chunk.
+			#Range: 0 ~ 64
+			spawnRateSapphire = 6
+
+	[Materials.Topaz]
+
+		[Materials.Topaz."World Gen"]
+			#Set to the max vein size you a Topaz cluster could generate with.
+			#Range: 0 ~ 64
+			veinSizeTopaz = 8
+			#Set to the number of blocks above the world bottom that Topaz should try and generate.
+			#Range: -64 ~ 320
+			botOffsetTopaz = 0
+			#Set to the max level that Topaz could generate in the world.
+			#Range: -64 ~ 320
+			maxSpawnLevelTopaz = 128
+			#Set to the number of attempts that Topaz will try to generate in a chunk.
+			#Range: 0 ~ 64
+			spawnRateTopaz = 6
+
+	[Materials.Peridot]
+
+		[Materials.Peridot."World Gen"]
+			#Set to the max vein size you a Peridot cluster could generate with.
+			#Range: 0 ~ 64
+			veinSizePeridot = 8
+			#Set to the number of blocks above the world bottom that Peridot should try and generate.
+			#Range: -64 ~ 320
+			botOffsetPeridot = 48
+			#Set to the max level that Peridot could generate in the world.
+			#Range: -64 ~ 320
+			maxSpawnLevelPeridot = 256
+			#Set to the number of attempts that Peridot will try to generate in a chunk.
+			#Range: 0 ~ 64
+			spawnRatePeridot = 6
+

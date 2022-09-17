@@ -1,0 +1,7 @@
+{
+	id: "76CE80F8DA6F39D5"
+	order_index: 0
+	title: "Common"
+	loot_size: 1
+	rewards: [{ item: "minecraft:stone" }]
+}

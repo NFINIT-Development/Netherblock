@@ -1,0 +1,804 @@
+{
+	id: "65F704DA0C727518"
+	group: "53C90A756B092318"
+	order_index: 0
+	filename: "surviving"
+	title: "Surviving"
+	icon: "minecraft:netherrack"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Netherrack"
+			x: -4.0d
+			y: -0.5d
+			description: ["Break netherrack (with empty hand)"]
+			dependencies: ["14DC7567F6A03ADA"]
+			id: "22FB9E74AA26BC75"
+			tasks: [{
+				id: "0E4D67F62938F459"
+				type: "item"
+				item: "minecraft:netherrack"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "016E56979635903C"
+					type: "item"
+					item: "nethersdelight:nether_skewer"
+					count: 16
+				}
+				{
+					id: "7336143FB803567A"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:epicbaconitem"
+						Count: 1b
+						tag: { }
+					}
+					count: 16
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			id: "14DC7567F6A03ADA"
+			tasks: [{
+				id: "7352D1CCEAA7ABCE"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "60EC9BD937C72A41"
+				type: "item"
+				item: {
+					id: "nethersdelight:propelplant_torch"
+					Count: 1b
+					tag: { }
+				}
+				count: 16
+			}]
+		}
+		{
+			title: "Cobblestone"
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["22FB9E74AA26BC75"]
+			id: "6B21DA1B6625388D"
+			tasks: [{
+				id: "7D5B1341CF266989"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 4L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["6B21DA1B6625388D"]
+			id: "77B7A18537A25836"
+			tasks: [{
+				id: "41EE9783BBB0B9D7"
+				type: "item"
+				item: "stoneutilities:stone_crafting_table"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["6B21DA1B6625388D"]
+			id: "0887AFFC50B2412A"
+			tasks: [{
+				id: "57CB989199CAD0F0"
+				type: "item"
+				item: "stonechest:chest_cobblestone"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["6B21DA1B6625388D"]
+			id: "2A1B65653C30380F"
+			tasks: [{
+				id: "09587420582FAAFF"
+				type: "item"
+				item: "stoneutilities:stone_stick"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["77B7A18537A25836"]
+			id: "4022C4E4CE700488"
+			tasks: [{
+				id: "0C0C951274956AB6"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Nether Iron Ore"
+			x: 2.0d
+			y: -0.5d
+			subtitle: "Nether Ores"
+			description: ["Look for ores in the nether"]
+			dependencies: ["4022C4E4CE700488"]
+			id: "3C68E94F3DFFD370"
+			tasks: [{
+				id: "2D63EF56A7AC8CC2"
+				type: "item"
+				title: "Nether Iron Ore"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "netheroresplus:blackstone_iron_ore"
+								Count: 1b
+							}
+							{
+								id: "netheroresplus:basalt_iron_ore"
+								Count: 1b
+							}
+							{
+								id: "netheroresplus:nether_iron_ore"
+								Count: 1b
+							}
+							{
+								id: "minecraft:raw_iron"
+								Count: 1b
+							}
+							{
+								id: "nourished_nether:nether_iron_ore"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1227FFDE770495F6"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					count: 2
+				}
+				{
+					id: "73319A9294ED5504"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Vanilla Nether Ores"
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["3C68E94F3DFFD370"]
+			id: "06E64A7D4AF4FE60"
+			tasks: [
+				{
+					id: "5E00DB172A727122"
+					type: "item"
+					title: "Nether Coal Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "netheroresplus:nether_coal_ore"
+									Count: 1b
+								}
+								{
+									id: "netheroresplus:basalt_coal_ore"
+									Count: 1b
+								}
+								{
+									id: "netheroresplus:blackstone_coal_ore"
+									Count: 1b
+								}
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "305E710C0F010437"
+					type: "item"
+					title: "Nether Lapis Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "netheroresplus:blackstone_lapis_lazuli_ore"
+									Count: 1b
+								}
+								{
+									id: "netheroresplus:basalt_lapis_lazuli_ore"
+									Count: 1b
+								}
+								{
+									id: "netheroresplus:nether_lapis_lazuli_ore"
+									Count: 1b
+								}
+								{
+									id: "minecraft:lapis_lazuli"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "53379C043D0C5D04"
+					type: "item"
+					title: "Nether Gold Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "netheroresplus:blackstone_gold_ore"
+									Count: 1b
+								}
+								{
+									id: "netheroresplus:basalt_gold_ore"
+									Count: 1b
+								}
+								{
+									id: "netheroresplus:nether_gold_ore"
+									Count: 1b
+								}
+								{
+									id: "minecraft:nether_gold_ore"
+									Count: 1b
+								}
+								{
+									id: "minecraft:raw_gold"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "167E38781DEB6D02"
+					type: "item"
+					title: "Nether Redstone Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "netheroresplus:blackstone_redstone_ore"
+									Count: 1b
+								}
+								{
+									id: "netheroresplus:basalt_redstone_ore"
+									Count: 1b
+								}
+								{
+									id: "netheroresplus:nether_redstone_ore"
+									Count: 1b
+								}
+								{
+									id: "minecraft:redstone"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "2BBECBDF6EE5424F"
+					type: "item"
+					title: "Nether Emerald Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "netheroresplus:blackstone_emerald_ore"
+									Count: 1b
+								}
+								{
+									id: "netheroresplus:basalt_emerald_ore"
+									Count: 1b
+								}
+								{
+									id: "netheroresplus:nether_emerald_ore"
+									Count: 1b
+								}
+								{
+									id: "minecraft:emerald"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "4524C318A3590B46"
+					type: "item"
+					title: "Nether Diamond Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "netheroresplus:blackstone_diamond_ore"
+									Count: 1b
+								}
+								{
+									id: "netheroresplus:basalt_diamond_ore"
+									Count: 1b
+								}
+								{
+									id: "netheroresplus:nether_diamond_ore"
+									Count: 1b
+								}
+								{
+									id: "minecraft:diamond"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Modded Nether Ores"
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["3C68E94F3DFFD370"]
+			id: "01CA6CB1AE605260"
+			tasks: [
+				{
+					id: "146D0F33944CE6F4"
+					type: "item"
+					title: "Nether Copper Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "bno:nether_copper_ore"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "minecraft:raw_copper"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "3E3FD52720350DE8"
+					type: "item"
+					title: "Nether Silver Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "bno:nether_silver_ore"
+									Count: 1b
+								}
+								{
+									id: "bno:raw_silver"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "668A23967A95BAE9"
+					type: "item"
+					title: "Nether Lead Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "bno:nether_lead_ore"
+									Count: 1b
+								}
+								{
+									id: "bno:raw_lead"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "38B6410C637CC058"
+					type: "item"
+					title: "Nether Nickel Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "bno:nether_nickel_ore"
+									Count: 1b
+								}
+								{
+									id: "bno:raw_nickel"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "0B5E943987C6451B"
+					type: "item"
+					title: "Nether Aluminum Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "bno:nether_aluminum_ore"
+									Count: 1b
+								}
+								{
+									id: "bno:raw_aluminum"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "4EEE30BBA6461CCD"
+					type: "item"
+					title: "Nether Tin Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "bno:raw_tin"
+									Count: 1b
+								}
+								{
+									id: "bno:nether_tin_ore"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "00FBF0E784DA9463"
+					type: "item"
+					title: "Nether Osmium Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "bno:raw_osmium"
+									Count: 1b
+								}
+								{
+									id: "bno:nether_osmium_ore"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "235954EDDA788CAB"
+					type: "item"
+					title: "Nether Uranium Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "bno:raw_uranium"
+									Count: 1b
+								}
+								{
+									id: "bno:nether_uranium_ore"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["3C68E94F3DFFD370"]
+			id: "2DA4D38D49359F61"
+			tasks: [{
+				id: "15CA9B335F57039A"
+				type: "item"
+				item: {
+					id: "minecraft:lava_bucket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "428CB07BDFBF1867"
+				type: "item"
+				item: {
+					id: "biomesoplenty:hellbark_sapling"
+					Count: 1b
+					tag: { }
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["3C68E94F3DFFD370"]
+			id: "24D886DC85EE7BEA"
+			tasks: [{
+				id: "2D5A5DF30ECAD8EB"
+				type: "item"
+				item: {
+					id: "betterfurnacesreforged:iron_furnace"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["3C68E94F3DFFD370"]
+			id: "1289EECAC4DA0B49"
+			tasks: [{
+				id: "29D1BDBE4C5F9FF6"
+				type: "item"
+				item: "extrautilitiesrebirth:survival_generator"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			dependencies: ["446079C04C44DCE0"]
+			id: "10E00BEFC02CE0B8"
+			tasks: [{
+				id: "4F259875345BBD60"
+				type: "item"
+				item: {
+					id: "minecraft:water_bucket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -0.5d
+			dependencies: ["10E00BEFC02CE0B8"]
+			id: "566B006CDDDC0601"
+			tasks: [{
+				id: "4081AF981FC2A176"
+				type: "item"
+				item: {
+					id: "cobblefordays:tier_1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Wooden Crucible"
+			x: 9.0d
+			y: -0.5d
+			dependencies: ["53A2FAEE1857BE1C"]
+			id: "446079C04C44DCE0"
+			tasks: [{
+				id: "043ED73BDA988DBB"
+				type: "item"
+				title: "Wooden Crucible"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "exnihilosequentia:acacia_crucible"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "exnihilosequentia:birch_crucible"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "exnihilosequentia:dark_oak_crucible"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "exnihilosequentia:jungle_crucible"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "exnihilosequentia:oak_crucible"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "exnihilosequentia:spruce_crucible"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "exnihilosequentia:crimson_crucible"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "exnihilosequentia:warped_crucible"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["4022C4E4CE700488"]
+			id: "27D349808C36728C"
+			tasks: [
+				{
+					id: "1BF316CABB603993"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:stone_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "47B1A7AFBE6F95E5"
+					type: "item"
+					item: {
+						id: "minecraft:gravel"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "41727E0DED953431"
+					type: "item"
+					item: {
+						id: "minecraft:sand"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "284ED49F0B9D4D28"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:dust"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["2DA4D38D49359F61"]
+			id: "256BD9FF2E63977D"
+			tasks: [{
+				id: "3E7AD4C9B4D73F34"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:stone_barrel"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "08FCDC7693D02E63"
+				type: "item"
+				item: {
+					id: "minecraft:crimson_stem"
+					Count: 1b
+					tag: { }
+				}
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			dependencies: ["256BD9FF2E63977D"]
+			id: "53A2FAEE1857BE1C"
+			tasks: [{
+				id: "33FEE84E5762E2D2"
+				type: "item"
+				item: {
+					id: "minecraft:crimson_stem"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["4022C4E4CE700488"]
+			id: "56DB359E84E3408B"
+			tasks: [{
+				id: "2BD85D3CF4FBB566"
+				type: "item"
+				item: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}
