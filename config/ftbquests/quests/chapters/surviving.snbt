@@ -557,7 +557,7 @@
 			]
 		}
 		{
-			x: 4.5d
+			x: 5.0d
 			y: -0.5d
 			dependencies: ["3C68E94F3DFFD370"]
 			id: "2DA4D38D49359F61"
@@ -583,7 +583,7 @@
 		}
 		{
 			x: 3.5d
-			y: -1.5d
+			y: -0.5d
 			dependencies: ["3C68E94F3DFFD370"]
 			id: "24D886DC85EE7BEA"
 			tasks: [{
@@ -597,18 +597,7 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 0.5d
-			dependencies: ["3C68E94F3DFFD370"]
-			id: "1289EECAC4DA0B49"
-			tasks: [{
-				id: "29D1BDBE4C5F9FF6"
-				type: "item"
-				item: "extrautilitiesrebirth:survival_generator"
-			}]
-		}
-		{
-			x: 10.5d
+			x: 9.5d
 			y: -0.5d
 			dependencies: ["446079C04C44DCE0"]
 			id: "10E00BEFC02CE0B8"
@@ -623,7 +612,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 11.0d
 			y: -0.5d
 			dependencies: ["10E00BEFC02CE0B8"]
 			id: "566B006CDDDC0601"
@@ -639,9 +628,9 @@
 		}
 		{
 			title: "Wooden Crucible"
-			x: 9.0d
+			x: 8.0d
 			y: -0.5d
-			dependencies: ["53A2FAEE1857BE1C"]
+			dependencies: ["256BD9FF2E63977D"]
 			id: "446079C04C44DCE0"
 			tasks: [{
 				id: "043ED73BDA988DBB"
@@ -744,7 +733,7 @@
 			]
 		}
 		{
-			x: 6.0d
+			x: 6.5d
 			y: -0.5d
 			dependencies: ["2DA4D38D49359F61"]
 			id: "256BD9FF2E63977D"
@@ -757,31 +746,27 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "08FCDC7693D02E63"
-				type: "item"
-				item: {
-					id: "minecraft:crimson_stem"
-					Count: 1b
-					tag: { }
+			rewards: [
+				{
+					id: "08FCDC7693D02E63"
+					type: "item"
+					item: {
+						id: "minecraft:crimson_stem"
+						Count: 1b
+						tag: { }
+					}
+					count: 8
 				}
-				count: 8
-			}]
-		}
-		{
-			x: 7.5d
-			y: -0.5d
-			dependencies: ["256BD9FF2E63977D"]
-			id: "53A2FAEE1857BE1C"
-			tasks: [{
-				id: "33FEE84E5762E2D2"
-				type: "item"
-				item: {
-					id: "minecraft:crimson_stem"
-					Count: 1b
-					tag: { }
+				{
+					id: "67798B157404F05D"
+					type: "item"
+					item: {
+						id: "biomesoplenty:hellbark_log"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 		}
 		{
 			x: 0.5d
@@ -797,6 +782,86 @@
 					tag: {
 						Damage: 0
 					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			dependencies: ["256BD9FF2E63977D"]
+			id: "19D5E6F96506A87B"
+			tasks: [{
+				id: "03955D42B1DE0796"
+				type: "item"
+				item: {
+					id: "minecraft:dirt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["256BD9FF2E63977D"]
+			id: "198CC01730E8C093"
+			tasks: [
+				{
+					id: "60B2D12510F824A8"
+					type: "item"
+					item: {
+						id: "biomesoplenty:hellbark_log"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "55D22F16B2E09A36"
+					type: "item"
+					item: {
+						id: "minecraft:crimson_stem"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5EEEDD48E7DCC4F7"
+					type: "item"
+					item: {
+						id: "minecraft:oak_log"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			dependencies: ["10E00BEFC02CE0B8"]
+			id: "1E9799437E62D946"
+			tasks: [{
+				id: "40C4ED0F887EBE80"
+				type: "item"
+				item: {
+					id: "minecraft:clay"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["24D886DC85EE7BEA"]
+			id: "75ECD7DEA4CB6E3A"
+			tasks: [{
+				id: "62F8A12183784175"
+				type: "item"
+				item: {
+					id: "betterfurnacesreforged:raw_ore_processing_upgrade"
+					Count: 1b
+					tag: { }
 				}
 			}]
 		}

@@ -34,10 +34,5 @@ doom:icon_fight
 doom:gladiator_fight
 doom:motherdemon1a
 doom:archmakyr
-tconstruct:earth_slime_island
-tconstruct:sky_slime_island
-tconstruct:clay_island
-tconstruct:blood_island
-tconstruct:end_slime_island
 ae2:meteorite
 quark:mega_dungeon

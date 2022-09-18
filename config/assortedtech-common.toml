@@ -45,3 +45,7 @@
 	#Range: 0.001 ~ 10.0
 	gravitorSpeed = 0.1
 
+[General]
+	#For any item that is unobtainable (like missing materials from other mods) hide it from the creative menu / JEI.
+	hideUncraftableItems = false
+

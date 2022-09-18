@@ -45,21 +45,21 @@
 	#Determines if Blackstone Dwarves will attack Zombified Piglins
 	dwarfAttackZombiePiglin = true
 	#Determines if Blackstone Dwarves will attack Players
-	dwarfAttackPlayer = true
+	dwarfAttackPlayer = false
 	#Determines if Blindsights will attack Glowsquitos
 	blindsightAttackGlowsquito = true
 	#Determines if Blindsights will attack Players
-	blindsightAttackPlayer = true
+	blindsightAttackPlayer = false
 	#Determines if Basalt Giants will attack Magma Cubes
 	giantAttackMagmaCube = true
 	#Determines if Embodies will attack Piglins
 	embodyAttackPiglin = true
 	#Determines if Embodies will attack Players
-	embodyAttackPlayer = true
+	embodyAttackPlayer = false
 	#Determines if Voline will attack Entities with Fire Resistance
 	volineAttackFireResistance = true
 	#Determines if Voline will attack Players
-	volineAttackPlayer = true
+	volineAttackPlayer = false
 	#Determines if Voline will attack small Magma Cubes
 	volineAttackMagmaCube = true
 	#Determines if Hogchops will replace Porkchops in Hoglin Drops
@@ -102,7 +102,7 @@
 	fireChargeExplosion = true
 	#Determines the duration in seconds of the effect that Cured Jerky gives
 	#Range: > 0
-	jerkyEffectDuration = 8
+	jerkyEffectDuration = 4
 	#Determines the amplifier of the effect that Cured Jerky gives
 	#Range: 0 ~ 2
 	jerkyEffectAmplifier = 1
@@ -112,7 +112,7 @@
 	[Miscellaneous."Luminous Fungus"]
 		#Determines the distance an entity has to be from a luminous fungus for it to activate (larger values have performance impact)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		luminousFungusActivateDistance = 4.0
+		luminousFungusActivateDistance = 2.0
 		#Determines whether Luminous Fungus gives the Luminance effect on collision with an entity
-		luminousFungusGivesEffect = true
+		luminousFungusGivesEffect = false
 

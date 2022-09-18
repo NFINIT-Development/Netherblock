@@ -48,7 +48,7 @@
 	#Range: 0 ~ 64
 	soulstoneSpawnSize = 64
 	#How many Soulstone veins should spawn in a chunk.
-	generateSoulstone = false
+	generateSoulstone = true
 	#How many Soulstone veins should spawn in a chunk.
 	#Range: 0 ~ 128
 	soulstoneSpawnRate = 4

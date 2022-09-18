@@ -27,11 +27,11 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Prowler Ranged Damage" = 4.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Prowler Max Health" = 15.0
+	"Sets Prowler Max Health" = 20.0
 
 ["Mob Settings:Pinky"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Pinky Melee Damage" = 3.0
+	"Sets Pinky Melee Damage" = 2.0
 	#Range: > 1
 	"Pinky Min Group" = 2
 	#Range: > 1
@@ -40,13 +40,13 @@
 	"Pinky Biomes" = ["#nether"]
 	#Sets Pinky Max Health
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Pinky Max Health" = 50.0
+	"Sets Pinky Max Health" = 30.0
 	#Range: > 1
 	"Pinky Max Group" = 4
 
 ["Mob Settings:Pain Elemental"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Pain Elemental Max Health" = 80.0
+	"Sets Pain Elemental Max Health" = 50.0
 	#Range: > 1
 	"Pain Elemental Min Group" = 1
 	#Range: > 1
@@ -54,7 +54,7 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Pain Elemental Biomes" = ["#nether"]
 	#Range: > 1
-	"Pain Elemental Max Group" = 2
+	"Pain Elemental Max Group" = 1
 
 ["Mob Settings:Tentacle"]
 	#Range: > 1
@@ -78,13 +78,13 @@
 	#Range: > 1
 	"Baron of Hell Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Baron of Hell Ranged Damage" = 6.0
+	"Sets Baron of Hell Ranged Damage" = 3.0
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Baron Biomes" = ["#nether"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Baron of Hell Melee Damage" = 7.0
+	"Sets Baron of Hell Melee Damage" = 3.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Baron of Hell Max Health" = 125.0
+	"Sets Baron of Hell Max Health" = 50.0
 
 ["Armor Stats"]
 	#Range: > 1
@@ -110,11 +110,11 @@
 	#Range: > 1
 	"Revenant Min Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Revenant Ranged Damage" = 5.0
+	"Sets Revenant Ranged Damage" = 2.0
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Revenant Biomes" = ["#nether"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Revenant Melee Damage" = 3.0
+	"Sets Revenant Melee Damage" = 2.0
 
 ["Mob Settings:Hellknight"]
 	#Range: > 1
@@ -124,35 +124,35 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Hellknight Biomes" = ["#nether"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets the Ranged Damage" = 6.0
+	"Sets the Ranged Damage" = 3.0
 	#Range: > 1
 	"Hellknight Min Group" = 1
 	#Range: > 1
 	"Hellknight Max Group" = 2
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Hellknight Melee Damage" = 4.0
+	"Sets Hellknight Melee Damage" = 3.0
 
 ["Mob Settings:Archmaykr"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Max Health" = 150.0
+	"Sets Archmaykr Max Health" = 100.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Ranged Damage For 2nd Phase" = 14.0
+	"Sets Archmaykr Ranged Damage For 2nd Phase" = 8.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Ranged Damage For 5th Phase" = 56.0
+	"Sets Archmaykr Ranged Damage For 5th Phase" = 14.0
 	#Range: > 1
 	"Archmaykr Spawn Weight" = 1
 	#Range: > 1
 	"Archmaykr Min Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Ranged Damage" = 14.0
+	"Sets Archmaykr Ranged Damage" = 6.0
 	#Range: > 1
 	"Archmaykr Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Ranged Damage For 4th Phase" = 42.0
+	"Sets Archmaykr Ranged Damage For 4th Phase" = 12.0
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Archmaykr Biomes" = [""]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archmaykr Ranged Damage For 3nd Phase" = 28.0
+	"Sets Archmaykr Ranged Damage For 3nd Phase" = 10.0
 
 ["Mob Settings:Doom Hunter"]
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -160,7 +160,7 @@
 	#Range: > 1
 	"Doom Hunter Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Doomhunter Ranged Damage" = 7.0
+	"Sets Doomhunter Ranged Damage" = 4.0
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Doom Hunter Biomes" = ["#nether"]
 	#Range: > 1
@@ -168,9 +168,9 @@
 	#Range: > 1
 	"Doom Hunter Min Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Doomhunter Melee Damage" = 5.0
+	"Sets Doomhunter Melee Damage" = 3.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Doomhunter Max Health" = 100.0
+	"Sets Doomhunter Max Health" = 75.0
 
 ["PMMO Compat"]
 	#Range: > 1
@@ -191,11 +191,11 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Imp Max health" = 20.0
 	#Range: > 1
-	"Imp Spawn Weight" = 15
+	"Imp Spawn Weight" = 25
 	#Range: > 1
 	"Imp Max Group" = 4
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Imp Ranged Damage damage" = 4.0
+	"Sets Imp Ranged Damage damage" = 2.0
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Imp Biomes" = ["#nether"]
 	#Range: > 1
@@ -211,7 +211,7 @@
 	#Range: > 1
 	"Hellknight 2016 Spawn Weight" = 4
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Hellknight 2016 Max Health" = 60.0
+	"Sets Hellknight 2016 Max Health" = 70.0
 	#Range: > 1
 	"Hellknight 2016 Min Group" = 1
 
@@ -221,7 +221,7 @@
 	#Range: > 1
 	"Unwilling Min Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Unwilling Max Health" = 10.0
+	"Sets Unwilling Max Health" = 20.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Unwilling Melee Damage" = 2.0
 	#Range: > 1
@@ -249,9 +249,9 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Possessed Solider Max Health" = 20.0
 	#Range: > 1
-	"Possessed Soldier Spawn Weight" = 15
+	"Possessed Soldier Spawn Weight" = 25
 	#Range: > 1
-	"Possessed Soldier Max Group" = 4
+	"Possessed Soldier Max Group" = 3
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Possessed Solider Ranged Damage" = 2.0
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -267,6 +267,8 @@
 	"BFGBall Damage" = 100.5
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Max Meathook Distance" = 32.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Chainsaw Damage" = 2.0
 	#Adds mob to list of mobs that can hurt by the BFG. Supports Registry Names (minecraft:cow)
 	"BFG Damage Whitelist" = [""]
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -302,7 +304,7 @@
 	"Cacodemon Min Group" = 1
 	#Sets Cacodemon Ranged Damage
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Cacodemon Ranged Damage damage" = 5.0
+	"Sets Cacodemon Ranged Damage damage" = 4.0
 
 ["Mob Settings:Chaingunner"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -320,9 +322,9 @@
 	#Range: > 1
 	"Armored Baron Spawn Weight" = 4
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Armored Baron Max Health" = 140.0
+	"Sets Armored Baron Max Health" = 70.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Armored Baron Melee Damage" = 7.0
+	"Sets Armored Baron Melee Damage" = 5.0
 	#Range: > 1
 	"Armored Baron Min Group" = 1
 	#Range: > 1
@@ -332,7 +334,7 @@
 
 ["Mob Settings:Stone Imps"]
 	#Range: > 1
-	"Stone Imp Spawn Weight" = 15
+	"Stone Imp Spawn Weight" = 25
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Stone Imp Melee Damage" = 2.0
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -356,11 +358,11 @@
 	#Range: > 1
 	"Blood Maykr Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Blood Maykr Ranged Damage" = 10.0
+	"Sets Blood Maykr Ranged Damage" = 4.0
 
 ["Mob Settings:Motherdemon"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Motherdemon Ranged Damage" = 14.0
+	"Sets Motherdemon Ranged Damage" = 8.0
 	#Range: > 1
 	"Motherdemon Spawn Weight" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -370,7 +372,7 @@
 	#Range: > 1
 	"Motherdemon Min Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Motherdemon Max Health" = 500.0
+	"Sets Motherdemon Max Health" = 250.0
 	#Range: > 1
 	"Motherdemon Max Group" = 1
 
@@ -380,13 +382,13 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Mechazombie Biomes" = ["#nether"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Mechazombie Ranged Damage" = 3.0
+	"Sets Mechazombie Ranged Damage" = 2.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets the Mechazombie Health" = 20.0
 	#Range: > 1
 	"Mechazombie Max Group" = 4
 	#Range: > 1
-	"Mechazombie Spawn Weight" = 15
+	"Mechazombie Spawn Weight" = 20
 
 ["Mob Settings:Arachnotron"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -398,7 +400,7 @@
 	#Range: > 1
 	"Arachnotron Max Group" = 4
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Arachnotron Ranged Damage" = 5.0
+	"Sets Arachnotron Ranged Damage" = 2.0
 	#Range: > 1
 	"Arachnotron Min Group" = 1
 
@@ -412,7 +414,7 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Maykr Drone Biomes" = ["minecraft:small_end_islands", "minecraft:end_midlands", "minecraft:end_barrens", "minecraft:end_highlands"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Maykr Drone Ranged Damage" = 5.0
+	"Sets Maykr Drone Ranged Damage" = 2.0
 	#Range: > 1
 	"Maykr Drone Max Group" = 2
 
@@ -434,15 +436,15 @@
 	#Range: > 1
 	"Marauder Min Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Marauder Axe Damage" = 6.0
+	"Sets Marauder Axe Damage" = 3.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Marauder Max Health" = 100.0
+	"Sets Marauder Max Health" = 50.0
 	#Range: > 1
 	"Marauder Spawn Weight" = 3
 	#Range: > 1
 	"Marauder Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Marauder Shotgun Damage" = 10.5
+	"Sets Marauder Shotgun Damage" = 5.5
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Marauder Biomes" = ["#nether"]
 
@@ -460,7 +462,7 @@
 	#Range: > 1
 	"Possessed Worker Min Group" = 1
 	#Range: > 1
-	"Possessed Worker Spawn Weight" = 15
+	"Possessed Worker Spawn Weight" = 10
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Possessed Worker Biomes" = ["#nether"]
 
@@ -468,15 +470,15 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Cyberdemon Biomes" = ["#nether"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Cyberdemon Max Health" = 100.0
+	"Sets Cyberdemon Max Health" = 70.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Cyberdemon Melee Damage" = 7.0
+	"Sets Cyberdemon Melee Damage" = 5.0
 	#Range: > 1
 	"Cyberdemon Min Group" = 1
 	#Range: > 1
 	"Cyberdemon Spawn Weight" = 4
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Cyberdemon Ranged Damage" = 9.0
+	"Sets Cyberdemon Ranged Damage" = 4.0
 	#Range: > 1
 	"Cyberdemon Max Group" = 1
 
@@ -510,11 +512,11 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Archvile Biomes" = ["#nether"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archvile Ranged Damage damage" = 5.0
+	"Sets Archvile Ranged Damage damage" = 4.0
 	#Range: > 1
 	"Archvile Min Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Archvile Max Health" = 100.0
+	"Sets Archvile Max Health" = 50.0
 	#Range: > 1
 	"Archvile Max Group" = 2
 
@@ -524,7 +526,7 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Gladiator Biomes" = [""]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Gladiator Max Health" = 100.0
+	"Sets Gladiator Max Health" = 70.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Gladiator Ranged Damage For 2nd Phase" = 6.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -558,13 +560,13 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Mancubus Max Health" = 40.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Mancubus Ranged Damage" = 6.0
+	"Sets Mancubus Ranged Damage" = 3.0
 	#Range: > 1
 	"Mancubus Spawn Weight" = 4
 	#Range: > 1
 	"Mancubus Min Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Mancubus Melee Damage" = 4.0
+	"Sets Mancubus Melee Damage" = 2.0
 
 ["Mob Settings:Gargoyle"]
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -572,7 +574,7 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Gargoyle Melee Damage" = 2.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Gargoyle Ranged Damage" = 5.0
+	"Sets Gargoyle Ranged Damage" = 3.0
 	#Range: > 1
 	"Gargoyle Min Group" = 1
 	#Range: > 1
@@ -614,7 +616,7 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Zombieman Biomes" = ["#nether"]
 	#Range: > 1
-	"Zombieman Spawn Weight" = 15
+	"Zombieman Spawn Weight" = 35
 	#Range: > 1
 	"Zombieman Max Group" = 4
 
@@ -622,7 +624,7 @@
 	#Range: > 1
 	"Spider Mastermind Min Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Spider Mastermind Melee Damage" = 4.0
+	"Sets Spider Mastermind Melee Damage" = 3.0
 	#Range: > 1
 	"Spider Mastermind Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -630,7 +632,7 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Spider Mastermind Biomes" = ["#nether"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Spider Mastermind Ranged Damage" = 7.0
+	"Sets Spider Mastermind Ranged Damage" = 5.0
 	#Range: > 1
 	"Spider Mastermind Spawn Weight" = 4
 

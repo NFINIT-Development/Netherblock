@@ -92,17 +92,17 @@
 		#Generate Lead Ore
 		lead = true
 		#Generate Diamond Ore
-		diamond = false
+		diamond = true
 		#Generate Tin Ore
 		tin = true
 		#Generate Coal Ore
-		coal = false
+		coal = true
 		#Generate Iron Ore
-		iron = false
+		iron = true
 		#Generate Copper Ore
 		copper = true
 		#Generate Lapis Ore
-		lapis = false
+		lapis = true
 		#Generate Silver Ore
 		silver = true
 		#Generate Uranium Ore
@@ -110,9 +110,9 @@
 		#Generate Zinc Ore
 		zinc = false
 		#Generate Emerald Ore
-		emerald = false
+		emerald = true
 		#Generate Redstone Ore
-		redstone = false
+		redstone = true
 
 	[ore_generation.tin]
 		#Set Tin Min Spawn Height (Default = 40)

@@ -1,5 +1,6 @@
 minecraft:overworld
 minecraft:the_nether
-compactmachines:compact_world
+ae2:spatial_storage
 minecraft:the_end
 bonsaitrees3:growtown
+compactmachines:compact_world
